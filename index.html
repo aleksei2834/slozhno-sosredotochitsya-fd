@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Сложно сосредоточиться</title>
   <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/globals.css">
   <link rel="stylesheet" href="./styles/variables.css">
   <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="./styles/globals.css">
   <link rel="stylesheet" href="./styles/dark.css">
   <link rel="stylesheet" href="./styles/light.css">
   <meta name="color-scheme" content="dark light">
@@ -21,30 +21,26 @@
 
 <body class="page">
   <header class="header">
-    <div class="header__navigation">
-      <p class="decoration" aria-hidden="true">REC</p>
-      <nav class="header__theme-menu">
-        <ul class="header__theme-menu-list">
-          <li class="header__theme-menu-item">
-            <button class="header__theme-menu-button header__theme-menu-button_type_light" type="button" value="light">
-              День
-            </button>
-          </li>
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-              type="button" value="auto">
-              Авто
-            </button>
-          </li>
-          <li class="header__theme-menu-item">
-            <button class="header__theme-menu-button header__theme-menu-button_type_dark" type="button" value="neon"
-              disabled>Неон</button>
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <p class="decoration" aria-hidden="true">REC</p>
+    <nav class="header__theme-menu">
+      <ul class="header__theme-menu-list">
+        <li class="header__theme-menu-item">
+          <button class="header__theme-menu-button header__theme-menu-button_type_light" type="button" value="light">
+            День
+          </button>
+        </li>
+        <li class="header__theme-menu-item">
+          <button class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+            type="button" value="auto">
+            Авто
+          </button>
+        </li>
+        <li class="header__theme-menu-item">
+          <button class="header__theme-menu-button header__theme-menu-button_type_dark" type="button" value="neon"
+            disabled>Неон</button>
+        </li>
+      </ul>
+    </nav>
     <h1 class="header__title">no focus</h1>
     <p class="header__description title-decor line-height-another">Что делать, когда не можешь делать ничего <br>Или
       почему нам так сложно
@@ -152,11 +148,16 @@
     <section class="section section-gallery">
       <h2 class="section-title title-decor">А можно в картинках?</h2>
       <div class="gallery">
-        <img class="gallery__image gallery__image-sunset" src="./images/sunset.png" alt="">
-        <img class="gallery__image gallery__image-ice-cream" src="./images/ice-cream.png" alt="">
-        <img class="gallery__image gallery__image-tape" src="./images/tape.png" alt="">
-        <img class="gallery__image gallery__image-books" src="./images/books.png" alt="">
-        <img class="gallery__image gallery__image-street" src="./images/street.png" alt="">
+        <img class="gallery__image gallery__image-sunset" src="./images/sunset.png"
+          alt="Пейзаж гор в закате, чайки летят к горизонту, на переднем плане море" loading="lazy">
+        <img class="gallery__image gallery__image-ice-cream" src="./images/ice-cream.png"
+          alt="Мороженое с ягодами и фруктами, зонтиком, вафельными трубочками и начинкой в виде мульт-героев"
+          loading="lazy">
+        <img class="gallery__image gallery__image-tape" src="./images/tape.png"
+          alt="На видео-кассету наведен курсор, на фоне открыты окна Windows и пиксельные облака" loading="lazy">
+        <img class="gallery__image gallery__image-books" src="./images/books.png" alt="Чашка с напитком на стопке книг">
+        <img class="gallery__image gallery__image-street" src="./images/street.png"
+          alt="Улица в японском стиле в ярком розовом оформлении" loading="lazy">
       </div>
     </section>
   </main>
