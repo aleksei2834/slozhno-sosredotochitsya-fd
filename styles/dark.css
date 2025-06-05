@@ -11,8 +11,12 @@
   --text-color: #F1B2CE;
   --accent-color-transparance: #ff007066;
   --bg-image: url('../images/cover-image-dark.png');
+  --section-title-color: #ff0070;
+  --button-color: #ff0070;
+  --decoration-color: #ff0070;
 }
 
-.theme-dark .page {
+.theme-dark .decoration {
+  display: block;
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
